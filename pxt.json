@@ -1,19 +1,17 @@
 {
-    "name": "SPE (Simple Physics Engine)",
-    "description": "",
+    "name": "pxt-physics",
+    "version": "0.0.1",
+    "description": "Physics engine for micro:bit — sprites with gravity, materials, elastic ropes, collisions on the 5x5 LED grid.",
+    "license": "MIT",
     "dependencies": {
         "core": "*",
-        "radio": "*",
         "microphone": "*"
     },
     "files": [
-        "main.blocks",
         "main.ts",
         "README.md"
     ],
-    "testFiles": [
-        "test.ts"
-    ],
+    "public": true,
     "targetVersions": {
         "target": "8.0.18",
         "targetId": "microbit"
